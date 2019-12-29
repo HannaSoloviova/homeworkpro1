@@ -1,0 +1,13 @@
+let digit1=prompt('Введите пятизначное число');
+digit1=parseInt(digit1);
+let digit2=digit1 % 10;
+digit2=parseInt(digit2);
+let digit3=digit1 % 100 / 10;
+digit3=parseInt(digit3);
+let digit4=digit1 % 1000 / 100;
+digit4=parseInt(digit4);
+let digit5=digit1 % 10000 / 1000;
+digit5=parseInt(digit5);
+let digit6=digit1 / 10000;
+digit6=parseInt(digit6); 
+alert('Введенное Вами число состоит из следующих цифр: \n' + digit6 + ' ' + digit5 + ' ' + digit4 + ' ' + digit3 + ' ' + digit2);
